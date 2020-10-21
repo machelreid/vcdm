@@ -11,6 +11,9 @@ unzip Reid2020VCDM.zip
 mv Reid2020VCDM/ data/
 chmod +x sentence-bleu # for evaluation using `sent-bleu`
 ```
+Note the following:
+- All data IS pretokenized 
+- The input `"example"` field is preprocessed into the phrase-context pair format to be fed into the encoder.
 
 ## Run training and evaluation
 ```python 
