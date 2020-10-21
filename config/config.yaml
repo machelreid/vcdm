@@ -1,0 +1,68 @@
+patience: 8
+serialization_dir: RESULTS_DIR 
+device: cuda
+clip: 0.5
+initial_lr: 0.001
+min_lr: 0
+lr_patience: 8 
+keep_all_checkpoints: true
+val_data_limit: null
+max_epochs: 150
+training_data_fraction: null
+beam_size: 5
+n_best: 1
+ratio: null
+
+min_length: 1
+max_length: 100 
+lowercase: true 
+
+lr_scheduling_metric: perplexity
+metric_decreases: true
+
+load_model: null
+load_optimizer: null
+
+embedding_dim: 300
+
+encoder: bert-base-uncased
+encoder_hidden: null 
+encoder_frozen: false
+max_layer: 12
+
+decoder: lstm
+decoder_hidden: 512 
+decoder_num_layers: 1
+
+
+datapath: /home/machel.reid/data/hiddic/
+dataset: null
+
+seed: 12
+
+train_batch_size: 64
+valid_batch_size: 128
+
+latent_size: 83 
+
+attention: general
+attention_dim: 300
+
+
+
+src_input_dropout: 0.5
+src_output_dropout: 0.5
+tgt_input_dropout: 0.5
+tgt_output_dropout: 0.5
+src_word_dropout: 0.0
+tgt_word_dropout: 0.25
+teacher_forcing_p: 0.2
+
+kl_reach_point: KL_REACH_POINT
+warmup_steps: WARMUP_STEPS
+attentional: True
+aggregator: mean
+validation_interval: null
+variational: True
+defbert: False
+tied: False
