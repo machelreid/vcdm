@@ -33,6 +33,8 @@ If you find our code, or our work useful - please cite as:
   preprint  = {https://arxiv.org/abs/2010.03124}
 }
 ```
+## Contact
+If you want to contact us about anything related to the work, feel free to reach out to me at machelreid -at- weblab -dot- t -dot- u-tokyo -dot- ac -dot- jp
 ## Todo
 (21/10/2020)
 - Add easier evaluation functionality (add an `--evaluate` argument or something similar)
