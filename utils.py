@@ -130,7 +130,7 @@ def batch_bleu(ref, hyp, reduction="average"):
         f.write("\n".join(hyp))
 
     Popen(
-        f"./sentence_bleu /tmp/{number}.ref.txt < /tmp/{number}.hyp.txt >"
+        f"./sentence-bleu /tmp/{number}.ref.txt < /tmp/{number}.hyp.txt >"
         f" /tmp/{number}.bleu_score",
         shell=True,
         stdout=subprocess.DEVNULL,
