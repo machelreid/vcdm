@@ -8,7 +8,7 @@ git clone https://github.com/machelreid/vcdm.git
 cd vcdm
 wget https://machelreid.github.io/resources/Reid2020VCDM.zip #contains the oxford, urban (slang), and wiki (wikipedia) datasets
 unzip Reid2020VCDM.zip
-mv Reid2020VCDM/ data/
+mv Reid20VCDM/ data/
 chmod +x sentence-bleu # for evaluation using `sent-bleu`
 ```
 Note the following:
