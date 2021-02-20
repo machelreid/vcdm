@@ -23,14 +23,20 @@ Default arguments can be seen and modified in `config/config.yaml`
 ## Citation
 If you find our code, or our work useful - please cite as:
 ```bibtex
-@inproceedings{reid2020vcdm,
-  title     = {VCDM: Leveraging Variational Bi-encoding and Deep Contextualized Word Representations for Improved Definition Modeling},
-  author    = {Reid, Machel and Marrese-Taylor, Edison and Matsuo, Yutaka},
-  year      = {2020},
-  booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-  publisher = {Association for Computational Linguistics},
-  code      = {https://github.com/machelreid/vcdm},
-  preprint  = {https://arxiv.org/abs/2010.03124}
+@inproceedings{reid-etal-2020-vcdm,
+    title = "{VCDM}: {L}everaging {V}ariational Bi-encoding and {D}eep Contextualized {W}ord {R}epresentations for {I}mproved {D}efinition {M}odeling",
+    author = "Reid, Machel  and
+      Marrese-Taylor, Edison  and
+      Matsuo, Yutaka",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-main.513",
+    doi = "10.18653/v1/2020.emnlp-main.513",
+    pages = "6331--6344",
+    abstract = "In this paper, we tackle the task of definition modeling, where the goal is to learn to generate definitions of words and phrases. Existing approaches for this task are discriminative, combining distributional and lexical semantics in an implicit rather than direct way. To tackle this issue we propose a generative model for the task, introducing a continuous latent variable to explicitly model the underlying relationship between a phrase used within a context and its definition. We rely on variational inference for estimation and leverage contextualized word embeddings for improved performance. Our approach is evaluated on four existing challenging benchmarks with the addition of two new datasets, {``}Cambridge{''} and the first non-English corpus {``}Robert{''}, which we release to complement our empirical study. Our Variational Contextual Definition Modeler (VCDM) achieves state-of-the-art performance in terms of automatic and human evaluation metrics, demonstrating the effectiveness of our approach.",
 }
 ```
 ## Contact
